@@ -5,7 +5,7 @@
  * @format
  * @flow strict-local
  */
-
+//for test
 import React from 'react';
 import type {Node} from 'react';
 import {
@@ -28,6 +28,7 @@ import {
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
+  console.log('hello world');
   return (
     <View style={styles.sectionContainer}>
       <Text
